@@ -30,7 +30,7 @@ class SignUp extends React.Component {
     if (password !== confirmPassword) {
       Swal.fire({
         icon: "warning",
-        text: "Passwords don't match.",
+        text: "Sorry for the inconvenience your Password doesn't match.",
       });
       return;
     }
