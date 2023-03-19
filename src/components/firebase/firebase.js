@@ -4,13 +4,13 @@ import { setDoc, getDoc, doc, getFirestore } from "firebase/firestore";
 import Swal from "sweetalert2";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDA0H_FN7V_z2Yh8vA2nLT8tT4jOTt_LJk",
-  authDomain: "shopzyy-4fa3b.firebaseapp.com",
-  projectId: "shopzyy-4fa3b",
-  storageBucket: "shopzyy-4fa3b.appspot.com",
-  messagingSenderId: "769649097938",
-  appId: "1:769649097938:web:b4cdad738721c5ef21c10b",
-  measurementId: "G-ZG46PF59YX",
+  apiKey: "AIzaSyBhaazIiNV26kP-afhhryeZgFq1Y5Y6bkk",
+  authDomain: "fashiohut.firebaseapp.com",
+  projectId: "fashiohut",
+  storageBucket: "fashiohut.appspot.com",
+  messagingSenderId: "639849430579",
+  appId: "1:639849430579:web:1e816815b789113ebced46",
+  measurementId: "G-GGMENSKZ8K",
 };
 
 export const createUserProfileDoc = async (userAuth) => {
