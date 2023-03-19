@@ -13,7 +13,7 @@ import Swal from "sweetalert2";
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="site-name" to="/">
-      Fashion Hut
+      FashionHut
     </Link>
     <div className="options">
       <Link className="option" to="/">
