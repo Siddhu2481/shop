@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Directory from "../../components/directory/directory";
 import "./homepage.scss";
 import useAlan from "../../components/alanai/client-app";
-import Slideshow from "../../components/slideshow/slideshow";
+import Slideshow from "../../components/Slideshow/Slideshow";
 
 const Homepage = () => {
   const alanBtnContainer = useRef();
@@ -10,7 +10,7 @@ const Homepage = () => {
   useAlan();
   return (
     <div className="homepage">
-      <slideshow />
+      <Slideshow />
       <Directory />
 
       <div ref={alanBtnContainer} />
