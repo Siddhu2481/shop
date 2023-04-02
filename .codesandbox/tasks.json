@@ -11,7 +11,8 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "start"
+      "command": "start",
+      "runAtStart": true
     }
   }
 }
